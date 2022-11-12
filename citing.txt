@@ -9,3 +9,4 @@
 - Capitalize first letter in a string helper function: https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript
 - center a div horiztonally and vertically: https://stackoverflow.com/questions/356809/best-way-to-center-a-div-on-a-page-vertically-and-horizontally
 - how to play and how to win description: http://www.papg.com/show?1TMU
+- how to host a website using google drive: https://www.youtube.com/watch?v=nPx7s1sWqvs&ab_channel=WorkSmart
