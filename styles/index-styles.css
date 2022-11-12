@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+.header-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 80%;
+}
+
+#start-game-btn {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+
+#start-game-btn:hover {
+
+    background-color: grey;
+   
+}
+
+@media only screen and (min-width:800px){
+    .description {
+        width: 50%;
+    }
+  
+  }

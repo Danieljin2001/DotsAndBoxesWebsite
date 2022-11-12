@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Dots and Boxes | Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/>
+        <link href="styles/styles.css" rel = "stylesheet" type="text/css"/>
+    </head>
+    <body>        
+        <div class = "game-board-container">
+            <div class = "header-main"> 
+                <h1>Dots & Boxes</h1>
+            </div>
+            <div id = "top-bar">
+                <div class= "scores-container">
+                    <div id="blue-player"></div>
+                    <div id="green-player"></div>
+                    <div id="red-player"></div>
+                </div>
+                <div>
+                    <img id = "restart-button" src= "icons/restart.png">
+                </div>
+            </div>
+            <div id="game-board">
+            </div>
+
+            <div id = "back-home-button" onclick="location.href='index.html'">
+                Go Home
+            </div>
+
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div id="modal-win-text"></div>
+                  <div id="modal-scores-text"></div>
+                  <div id="modal-btns">
+                    <div id="modal-home-btn" onclick="location.href='index.html'">Home</div>
+                    <div id="modal-playagain-btn">Play Again</div>
+                    <div id="modal-close-btn">Close</div>
+                </div>
+            </div>
+
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
